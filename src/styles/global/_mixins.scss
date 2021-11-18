@@ -1,0 +1,13 @@
+@import "variables";
+
+@mixin sm {
+  @media (min-width: $bgmobile-width) {
+    @content;
+  }
+}
+
+@mixin bgsm {
+  @media (min-width: $mobile-width) {
+    @content;
+  }
+}
