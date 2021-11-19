@@ -37,7 +37,7 @@ item.forEach(toggle => {
 
     toggle.addEventListener('click', () => {
         hideItems()
-        handlerClickButton(toggle ? toggle : toggle.classList.contains('first'))
+        handlerClickButton(toggle)
 
         toggle.classList.toggle('offer-active')
     })
